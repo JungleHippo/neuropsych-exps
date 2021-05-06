@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment version="2021.1.3" encoding="utf-8">
+  <Settings>
+    <Param name="Audio latency priority" val="use prefs" valType="str" updates="None"/>
+    <Param name="Audio lib" val="use prefs" valType="str" updates="None"/>
+    <Param name="Completed URL" val="" valType="str" updates="None"/>
+    <Param name="Data file delimiter" val="auto" valType="str" updates="None"/>
+    <Param name="Data filename" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None"/>
+    <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant': '', 'session': '001'}" valType="code" updates="None"/>
+    <Param name="Force stereo" val="True" valType="bool" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="HTML path" val="" valType="str" updates="None"/>
+    <Param name="Incomplete URL" val="" valType="str" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="Resources" val="[]" valType="list" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Save excel file" val="False" valType="bool" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Units" val="height" valType="str" updates="None"/>
+    <Param name="Use version" val="" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1366, 768]" valType="list" updates="None"/>
+    <Param name="blendMode" val="avg" valType="str" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="color" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="expName" val="ToM" valType="str" updates="None"/>
+    <Param name="exportHTML" val="on Sync" valType="str" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial_1">
+      <TextComponent name="fix1">
+        <Param name="color" val="white" valType="color" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="flip" val="None" valType="str" updates="constant"/>
+        <Param name="font" val="Open Sans" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.1" valType="num" updates="constant"/>
+        <Param name="name" val="fix1" valType="code" updates="None"/>
+        <Param name="opacity" val="" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="3" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="+" valType="str" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="num" updates="constant"/>
+      </TextComponent>
+      <MovieComponent name="fVid">
+        <Param name="No audio" val="False" valType="bool" updates="None"/>
+        <Param name="backend" val="moviepy" valType="str" updates="None"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="9" valType="num" updates="None"/>
+        <Param name="forceEndRoutine" val="False" valType="bool" updates="constant"/>
+        <Param name="loop" val="False" valType="bool" updates="None"/>
+        <Param name="movie" val="$firstVideo" valType="file" updates="set during: trial_1.preloadfVid"/>
+        <Param name="name" val="fVid" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="" valType="list" updates="constant"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="3" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </MovieComponent>
+      <TextComponent name="fix2">
+        <Param name="color" val="white" valType="color" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="flip" val="None" valType="str" updates="constant"/>
+        <Param name="font" val="Open Sans" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.1" valType="num" updates="constant"/>
+        <Param name="name" val="fix2" valType="code" updates="None"/>
+        <Param name="opacity" val="" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="fVid.status==FINISHED" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="3" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="+" valType="str" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="num" updates="constant"/>
+      </TextComponent>
+      <MovieComponent name="sVid">
+        <Param name="No audio" val="False" valType="bool" updates="None"/>
+        <Param name="backend" val="moviepy" valType="str" updates="None"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="3" valType="num" updates="None"/>
+        <Param name="forceEndRoutine" val="False" valType="bool" updates="constant"/>
+        <Param name="loop" val="False" valType="bool" updates="None"/>
+        <Param name="movie" val="$secondVideo" valType="file" updates="set during: trial_1.preloadfVid"/>
+        <Param name="name" val="sVid" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="" valType="list" updates="constant"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="fix2.status==FINISHED" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </MovieComponent>
+      <CodeComponent name="StartTime">
+        <Param name="Before Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Before JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Experiment" val="if ((fVid.status === PsychoJS.Status.STARTED)) {&amp;#10;    finish_time = clock.getTime();&amp;#10;    thisExp.addData(&quot;fVid_finish_time &quot;, finish_time);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#flag = False&amp;#10;#if fVid.status==STARTED and flag==False:&amp;#10;on_flag_fvid = False&amp;#10;on_flag_svid = False&amp;#10;mouse.setVisible(False)&amp;#10;&amp;#10;# Flags to keep video times&amp;#10;&amp;#10;#thisExp.addData('firstVideo.started ', globalClock.getTime() + fixation1_stopped)&amp;#10;&amp;#10;&amp;#10;&amp;#10;#flag = True" valType="extendedCode" updates="constant"/>
+        <Param name="Code Type" val="Py" valType="str" updates="None"/>
+        <Param name="Each Frame" val="&amp;#10;if fVid.status==FINISHED and on_flag_fvid == False:&amp;#10;    fVid.tStopRefresh = tThisFlipGlobal&amp;#10;    on_flag_fvid = True&amp;#10;    &amp;#10;if sVid.status==FINISHED and on_flag_svid == False:&amp;#10;    sVid.tStopRefresh = tThisFlipGlobal&amp;#10;    on_flag_svid = True&amp;#10;    mouse.setPos(newPos=(0,0))&amp;#10;    mouse.setVisible(True)&amp;#10;    &amp;#10;&amp;#10;    #thisExp.addData('firstVideo.started ', globalClock.getTime() + fixation1_stopped)" valType="extendedCode" updates="constant"/>
+        <Param name="Each JS Frame" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="thisExp.addData('fVid.started',  fVid.tStartRefresh)&amp;#10;thisExp.addData('sVid.started', sVid.tStartRefresh)&amp;#10;&amp;#10;thisExp.addData('fVid.stopped', fVid.tStopRefresh)&amp;#10;thisExp.addData('sVid.stopped', sVid.tStopRefresh)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="name" val="StartTime" valType="code" updates="None"/>
+      </CodeComponent>
+      <CodeComponent name="StopTime">
+        <Param name="Before Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Before JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Experiment" val="if ((sVid.status === PsychoJS.Status.FINISHED)) {&amp;#10;    finish_time = clock.getTime();&amp;#10;    thisExp.addData(&quot;sVid_finish_time &quot;, finish_time);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Code Type" val="Py" valType="str" updates="None"/>
+        <Param name="Each Frame" val="flag_stop = False&amp;#10;if fVid.status==FINISHED and flag_stop==False:&amp;#10;    thisExp.addData('firstVideo.stopped ', globalClock.getTime()+fixation1_stopped)&amp;#10;    flag_stop = True" valType="extendedCode" updates="constant"/>
+        <Param name="Each JS Frame" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="thisExp.addData('firstVideo.stopped ', globalClock.getTime())" valType="extendedCode" updates="constant"/>
+        <Param name="disabled" val="True" valType="bool" updates="None"/>
+        <Param name="name" val="StopTime" valType="code" updates="None"/>
+      </CodeComponent>
+      <StaticComponent name="preloadfVid">
+        <Param name="code" val="" valType="code" updates="None"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="1" valType="num" updates="None"/>
+        <Param name="name" val="preloadfVid" valType="code" updates="None"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="1.5" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+      </StaticComponent>
+      <MouseComponent name="mouse">
+        <Param name="clickable" val="correct,incorrect" valType="list" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="mouse" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="on click" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="sVid.status==FINISHED" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+      <ImageComponent name="correct">
+        <Param name="color" val="$[1,1,1]" valType="color" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="true.png" valType="file" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="" valType="str" updates="constant"/>
+        <Param name="name" val="correct" valType="code" updates="None"/>
+        <Param name="opacity" val="" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0.4,0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.1,0.1)" valType="list" updates="constant"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="sVid.status==FINISHED" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="num" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="incorrect">
+        <Param name="color" val="$[1,1,1]" valType="color" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="false.png" valType="file" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="" valType="str" updates="constant"/>
+        <Param name="name" val="incorrect" valType="code" updates="None"/>
+        <Param name="opacity" val="" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(-0.4,0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.1,0.1)" valType="list" updates="constant"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="sVid.status==FINISHED" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="num" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="instr">
+      <CodeComponent name="Sampling">
+        <Param name="Before Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Before JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Experiment" val="'''import os&amp;#10;from random import sample,shuffle&amp;#10;with open('.' + os.sep + 'TomVideos' + os.sep + 'videoList.csv') as f:&amp;#10;    lines = f.readlines()&amp;#10; &amp;#10;x = []&amp;#10;for line in lines:&amp;#10;    x.append(line.split(','))&amp;#10;    &amp;#10;    con_indices =   [i-1 for i in range(len(x)) if x[i][2]=='1'] &amp;#10;    incon_indices = [i-1 for i in range(len(x)) if x[i][2]=='0']&amp;#10;&amp;#10;# Balancing congruent &amp; incongruent trials&amp;#10;# Testing&amp;#10;repIndices = sample(con_indices, 1) + sample(incon_indices, 1)&amp;#10;&amp;#10;shuffle(repIndices)'''&amp;#10;'''&amp;#10;Code to not have more than two similar stories &amp;#10;appearing consecutively&amp;#10;Hard-coded for 96 stimuli&amp;#10;'''&amp;#10;x = [[i for i in range(12)], &amp;#10;     [i for i in range(12,24)], &amp;#10;     [i for i in range(24,36)], &amp;#10;     [i for i in range(36,48)], &amp;#10;     [i for i in range(48,60)], &amp;#10;     [i for i in range(60,72)], &amp;#10;     [i for i in range(72,84)], &amp;#10;     [i for i in range(84,96)]]  &amp;#10;&amp;#10;repIndices = []&amp;#10;&amp;#10;&amp;#10;rows = [i for i in range(8)]&amp;#10;cols = [i for i in range(12)]&amp;#10;&amp;#10;for col in cols:&amp;#10;    shuffle(x) # Shuffles row-wise&amp;#10;    for row in rows: &amp;#10;        shuffle(x[row]) # Shuffle column-wise&amp;#10;        if len(x[row])&gt;0: #&amp;#10;            temp = x[row].pop(-1)&amp;#10;            #temp = x[row].pop(randint(0,len(x[row])-1))&amp;#10;            repIndices.append(temp)&amp;#10;# Production - Uncomment lines below&amp;#10;# sample_num = min(len(con_indices), len(incon_indices))&amp;#10;# repIndices  = sample(con_indices, sample_num) + sample(incon_indices, sample_num)&amp;#10;# Uncomment if necessary" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Code Type" val="Py" valType="str" updates="None"/>
+        <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Each JS Frame" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End JS Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="name" val="Sampling" valType="code" updates="None"/>
+      </CodeComponent>
+      <TextComponent name="text">
+        <Param name="color" val="white" valType="color" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="contrast" val="1" valType="num" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="flip" val="None" valType="str" updates="constant"/>
+        <Param name="font" val="Open Sans" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.1" valType="num" updates="constant"/>
+        <Param name="name" val="text" valType="code" updates="None"/>
+        <Param name="opacity" val="" valType="num" updates="constant"/>
+        <Param name="ori" val="0" valType="num" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="Put instructions here" valType="str" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="num" updates="constant"/>
+      </TextComponent>
+      <MouseComponent name="mouse_2">
+        <Param name="clickable" val="" valType="list" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="num" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="any click" valType="str" updates="constant"/>
+        <Param name="name" val="mouse_2" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="list" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="num" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="num" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="num" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" val="$repIndices" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('firstVideo', 'BottleChangeSeen.mpg.mp4'), ('secondVideo', 'BottleEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleChangeSeen.mpg.mp4'), ('secondVideo', 'BottleEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleChangeSeen.mpg.mp4'), ('secondVideo', 'BottleEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'BottleChangeSeen.mpg.mp4'), ('secondVideo', 'BottleEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleChangeUnseen.mpg.mp4'), ('secondVideo', 'BottleEndMecaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'BottleChangeUnseen.mpg.mp4'), ('secondVideo', 'BottleEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleChangeUnseen.mpg.mp4'), ('secondVideo', 'BottleEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleChangeUnseen.mpg.mp4'), ('secondVideo', 'BottleEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleNoChange.mpg.mp4'), ('secondVideo', 'BottleEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleNoChange.mpg.mp4'), ('secondVideo', 'BottleEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleNoChange.mpg.mp4'), ('secondVideo', 'BottleEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'BottleNoChange.mpg.mp4'), ('secondVideo', 'BottleEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'CakeChangeSeen.mpg.mp4'), ('secondVideo', 'CakeEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeChangeSeen.mpg.mp4'), ('secondVideo', 'CakeEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeChangeSeen.mpg.mp4'), ('secondVideo', 'CakeEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'CakeChangeSeen.mpg.mp4'), ('secondVideo', 'CakeEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeChangeUnseen.mpg.mp4'), ('secondVideo', 'CakeEndMecaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'CakeChangeUnseen.mpg.mp4'), ('secondVideo', 'CakeEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeChangeUnseen.mpg.mp4'), ('secondVideo', 'CakeEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeChangeUnseen.mpg.mp4'), ('secondVideo', 'CakeEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeNoChange.mpg.mp4'), ('secondVideo', 'CakeEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeNoChange.mpg.mp4'), ('secondVideo', 'CakeEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeNoChange.mpg.mp4'), ('secondVideo', 'CakeEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'CakeNoChange.mpg.mp4'), ('secondVideo', 'CakeEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'EggChangeSeen.mpg.mp4'), ('secondVideo', 'EggEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggChangeSeen.mpg.mp4'), ('secondVideo', 'EggEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggChangeSeen.mpg.mp4'), ('secondVideo', 'EggEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggChangeSeen.mpg.mp4'), ('secondVideo', 'EggEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'EggChangeUnseen.mpg.mp4'), ('secondVideo', 'EggEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggChangeUnseen.mpg.mp4'), ('secondVideo', 'EggEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggChangeUnseen.mpg.mp4'), ('secondVideo', 'EggEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'EggChangeUnseen.mpg.mp4'), ('secondVideo', 'EggEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggNoChange.mpg.mp4'), ('secondVideo', 'EggEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggNoChange.mpg.mp4'), ('secondVideo', 'EggEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'EggNoChange.mpg.mp4'), ('secondVideo', 'EggEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'EggNoChange.mpg.mp4'), ('secondVideo', 'EggEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeSeen.mpg.mp4'), ('secondVideo', 'FishEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeSeen.mpg.mp4'), ('secondVideo', 'FishEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeSeen.mpg.mp4'), ('secondVideo', 'FishEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'FishChangeSeen.mpg.mp4'), ('secondVideo', 'FishEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeUnseen.mpg.mp4'), ('secondVideo', 'FishEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeUnseen.mpg.mp4'), ('secondVideo', 'FishEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeUnseen.mpg.mp4'), ('secondVideo', 'FishEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishChangeUnseen.mpg.mp4'), ('secondVideo', 'FishEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'FishNoChange.mpg.mp4'), ('secondVideo', 'FishEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishNoChange.mpg.mp4'), ('secondVideo', 'FishEndMecaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'FishNoChange.mpg.mp4'), ('secondVideo', 'FishEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FishNoChange.mpg.mp4'), ('secondVideo', 'FishEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeSeen.mpg.mp4'), ('secondVideo', 'FlowersEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeSeen.mpg.mp4'), ('secondVideo', 'FlowersEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeSeen.mpg.mp4'), ('secondVideo', 'FlowersEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'FlowersChangeSeen.mpg.mp4'), ('secondVideo', 'FlowersEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeUnseen.mpg.mp4'), ('secondVideo', 'FlowersEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeUnseen.mpg.mp4'), ('secondVideo', 'FlowersEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeUnseen.mpg.mp4'), ('secondVideo', 'FlowersEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersChangeUnseen.mpg.mp4'), ('secondVideo', 'FlowersEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'FlowersNoChange.mpg.mp4'), ('secondVideo', 'FlowersEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersNoChange.mpg.mp4'), ('secondVideo', 'FlowersEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersNoChange.mpg.mp4'), ('secondVideo', 'FlowersEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'FlowersNoChange.mpg.mp4'), ('secondVideo', 'FlowersEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'HideAndSeekChangeSeen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeSeen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeSeen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'HideAndSeekChangeSeen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeUnseen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeUnseen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeUnseen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekChangeUnseen.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'HideAndSeekNoChange.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekNoChange.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekNoChange.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'HideAndSeekNoChange.mpg.mp4'), ('secondVideo', 'HideAndSeekEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'PaintChangeSeen.mpg.mp4'), ('secondVideo', 'PaintEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintChangeSeen.mpg.mp4'), ('secondVideo', 'PaintEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintChangeSeen.mpg.mp4'), ('secondVideo', 'PaintEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintChangeSeen.mpg.mp4'), ('secondVideo', 'PaintEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'PaintChangeUnseen.mpg.mp4'), ('secondVideo', 'PaintEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintChangeUnseen.mpg.mp4'), ('secondVideo', 'PaintEndMecaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'PaintChangeUnseen.mpg.mp4'), ('secondVideo', 'PaintEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintChangeUnseen.mpg.mp4'), ('secondVideo', 'PaintEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintNoChange.mpg.mp4'), ('secondVideo', 'PaintEndMecaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'PaintNoChange.mpg.mp4'), ('secondVideo', 'PaintEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintNoChange.mpg.mp4'), ('secondVideo', 'PaintEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'PaintNoChange.mpg.mp4'), ('secondVideo', 'PaintEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeSeen.mpg.mp4'), ('secondVideo', 'ThiefEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeSeen.mpg.mp4'), ('secondVideo', 'ThiefEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeSeen.mpg.mp4'), ('secondVideo', 'ThiefEndMentaD.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'ThiefChangeSeen.mpg.mp4'), ('secondVideo', 'ThiefEndMentaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeUnseen.mpg.mp4'), ('secondVideo', 'ThiefEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeUnseen.mpg.mp4'), ('secondVideo', 'ThiefEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeUnseen.mpg.mp4'), ('secondVideo', 'ThiefEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefChangeUnseen.mpg.mp4'), ('secondVideo', 'ThiefEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')]), OrderedDict([('firstVideo', 'ThiefNoChange.mpg.mp4'), ('secondVideo', 'ThiefEndMecaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefNoChange.mpg.mp4'), ('secondVideo', 'ThiefEndMecaG.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefNoChange.mpg.mp4'), ('secondVideo', 'ThiefEndMentaD.mpg.mp4'), ('congruent', 0), ('corrAns', 'incorrect')]), OrderedDict([('firstVideo', 'ThiefNoChange.mpg.mp4'), ('secondVideo', 'ThiefEndMentaG.mpg.mp4'), ('congruent', 1), ('corrAns', 'correct')])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="TomVideos/videoList.csv" valType="file" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="num" updates="None"/>
+      <Param name="name" val="trials" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial_1"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
