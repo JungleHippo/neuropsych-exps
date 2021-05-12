@@ -24,6 +24,9 @@ Change the script `df[resp.filename]` to the respective identifier pointing to t
 # Caveats
 1) Check the recordings paths before you run, or else you get an error (e.g. log file produced in Windows and the analysis running on Linux)
 2) Response latencies are approximate a lot of times, that's why the graphs are saved, in order to be inspected by eye and decide if they are satisfying. E.g.
+<img src="./test1.jpg" alt="Test Image 1" width="500"/>
+<img src="./test2.jpg" alt="Test Image 2" width="500"/>
+<img src="./test3.jpg" alt="Test Image 3" width="500"/>
 
 3) Documentation at https://github.com/Uberi/speech_recognition/blob/master/speech_recognition/__init__.py states that 1.0 in keyword searching is the most sensitive,
 (more false positives) and 0.0 the least sensitive (more false negatives). In testing it has been found that the inverse holds. To be tested
